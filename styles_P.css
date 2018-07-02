@@ -1,0 +1,131 @@
+body{
+	font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'IBM Plex Sans Condensed', sans-serif;
+background-color: #E6E6E4;
+color: #424242;
+transition: .5s ease;
+}
+
+.title{
+	font-weight: bold;
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-size: 60px;
+}
+
+#title_projects{
+	color: white;
+	font-size: 2.5em;
+}
+
+
+
+#img_header{
+	transition: .5s ease;
+}
+
+.projectHeader{
+	position: relative;
+	top: 0px;
+}
+.projectHeader img{
+	 position: relative; 
+	 /*width: 70%;*/
+}
+
+.projectHeader h3{ 
+	position: relative;
+    top: -40px;
+    left: 60px;
+
+}
+
+.project p{
+    color: white;
+    position: relative;
+    width: 55%;
+    top: -20px;
+    left: 50px;
+    transition: .5s ease;
+	opacity: 0;
+	font-style: light;
+}
+
+.projectL p{
+	color: white;
+    position: relative;
+    width: 55%;
+    top: -20px;
+    right: -50px;
+    transition: .5s ease;
+	opacity: 0;
+}
+
+.projectL h3{
+	left: 80px;
+}
+
+.projectL .project_imgL{
+	position: relative;
+	left: -200px;
+}
+.project .btn_continue{
+	opacity: 0;
+		transition: .5s ease;
+}
+.projectL .btn_continue{
+	opacity: 0;
+		transition: .5s ease;
+}
+
+.btn_continue:hover{
+	transition: .2s ease;
+	        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}
+
+.btn_color:hover{
+	display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+#btn_contact{
+		transition: .5s ease;
+}
+
+.btn_contacts{
+	display: none;
+}
+
+#btn_projects{
+	transition: .5s ease;
+}
+
+
+.project_content{
+	transition: .5s ease;
+}
+
+.project:hover p{
+	opacity: 1;
+}
+
+.projectL:hover p{
+	opacity: 1;
+}
+
+.project:hover .btn_continue{
+	opacity: 1;
+}
+
+.projectL:hover .btn_continue{
+	opacity: 1;
+}
