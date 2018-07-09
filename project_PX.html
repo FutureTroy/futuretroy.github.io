@@ -6,12 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 
-	<title>Troy Brown Designs</title>
+	<title>Personal Site 4.0</title>
     <link rel="shortcut icon" href="icons/favicon.png" type="image/png">
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-
-	<link rel="stylesheet" type="text/css" href="styles_P.css">
 
 	<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed:400,700|IBM+Plex+Sans:400,400i,700" rel="stylesheet">
 
@@ -26,10 +24,11 @@
 
 
 <body>
+    <!-- Home Button -->
 	<div  class="btn_continue" style="position: absolute; right: 40px; top: 40px;">	<img id="btn_home" src="img/img_logo.png" style="">
 	</div>
 
-	
+
 	<div class="wrapper">
 	<!-- Sidebar: Projects  -->
         <nav id="sidebar">
@@ -249,51 +248,167 @@
 	<img class="btn_continue" src="img/btn_sidebar.png" id="sidebarCollapse" style="width:50px; position:  fixed; left: 0px; top: 31%;">
 
 
+    <style type="text/css">
+        div.projectHeroImg {
+            height: 450px;
+            width:70%; 
+            position: absolute; 
+            top: 155px; 
+            right: 0px;
+            background-image: url("img/img_projectPX_lg.jpg");
+            background-size: contain;
+        }
+
+        div.projectHeroOverlay{
+            height: 450px;
+            width:100%; 
+            position: absolute; 
+            right: 0px;
+            opacity: 0.0;
+            background: #5D0D03;
+        }
+
+        div.projectHeroContent h1{
+            color: white;
+            font-weight: bold;
+            opacity: 1;
+        } 
+        
+        div.projectHeroOverlay h6{
+            
+        }
+
+        .projectHeroContent {
+            position: absolute;
+            top: 90px;
+            right: 40px;
+            color: white;
+            text-align: right;
+        }
+        .projectBody{
+            padding: 45px;
+            background: white;
+            width: 60%;
+            height: 100%;
+            position: absolute;
+            top: 450px;
+            right: 0px;
+        }
+        .projectBody p{
+            position: absolute;
+            padding-right: 45px;
+            font-family: 'IBM Plex Sans Condensed', sans-serif;
+            color: #2058BD;
+            
+            font-weight: 500;
+        }
+
+        .projectLogo {
+            position: absolute;
+            width: 16%;
+            top: 100px;
+            left: 100px;
+            z-index: 3;
+        }   
+
+        .projectBody p::first-letter { 
+            font-size: 3.0em;
+            /*font-weight: bold;*/
+        }    
 
 
 
+        .gallery {
+            margin: -45px;
+            padding-left: 45px;
+            position: absolute;
+            bottom: 0px;
+          width: 100%;
+          padding: 5px;
+          background: #2058BD;
+          text-align: center;
+          /*box-shadow: 0 1px 2px rgba(0,0,0,.3);*/
+        }
 
-    <br>
+        .gallery > div {
+            /*transform: translate(-50%, -50%);*/
+            position: relative;
+          float: left;
+          padding-left: 20px;
+          padding: 15px;
+        }
 
-		<table style="position: absolute; margin: 15% 20% 15% 20%; align-content: center">
-			<tr>
-				<td>
-					<div  background-color: black;">
-						<img id="img_header" style="width:250px; height: 250px;"src="img/img_header.png">
-					</div>
-				</td>
+        .gallery > div > img {
+          display: block;
+          width: 200px;
+          transition: .1s transform;
+          transform: translateZ(0); /* hack */
+        }
 
-				<td style="padding-top: 10%; padding-left: 5%">
-					<div id="txt_title">
-						<h1 id="txt_titleH1" class="title" >Welcome</h1>
-					</div>
+        .gallery > div:hover {
+          z-index: 3;
+        }
 
-					<hr style="width: 0%;">
-					<br>
+        .gallery > div:hover > img {
+          transform: scale(2.7,2.7);
+          transition: .3s transform;
+        }
+
+        .cf:before, .cf:after {
+          display: table;
+          content: "";
+          line-height: 0;
+        }
+
+        .cf:after {
+          clear: both;
+        }
+    </style>
+
+    <div class="projectHeroImg">
+
+        <div class="projectHeroOverlay">
+            
+        </div>
+         <div class="projectHeroContent">
+                
+                <h1>Perfect Execution</h1>
+                <h6>December 27, 2017</h6>
+                <br>
+                <img src="img/img_devHeader.png" style="position: absolute; top: 80px; right: 0px; width: 80%; -webkit-transform: scaleX(-1); transform: scaleX(-1);">    
+                <h6 style="position: absolute; right: 50px; top: 108px;">Web Development</h6>
+        </div>
+        <img class="projectLogo" src="img/img_pxlogo.png">
+    </div>
+
+    <div class="projectBody">
+        <div class="">
+            
+
+            <p>   otor erat nulla dictumst eros nullam         
+                  pulvinar volutpat, risus gravida sit ornare sed luctus vitae, purus netus aptent maecenas sapien elit sodales. a ultrices commodo molestie vulputate suscipit etiam sed tempus elementum, senectus pulvinar ante himenaeos aenean fringilla eleifend odio, maecenas primis risus curae adipiscing mollis sit per. erat malesuada eleifend venenatis et elementum cubilia convallis commodo, odio conubia risus molestie nec hac fames, malesuada diam mattis ad duis per litora. vehicula sociosqu curabitur arcu faucibus etiam euismod habitasse nullam aliquet, etiam lectus mi metus a at consequat curae consectetur, nunc lacus pellentesque porttitor ut class tellus lacinia. convallis mattis class pellentesque morbi habitasse class primis, quam donec curabitur enim risus eros condimentum ultrices, dui eu taciti sit turpis vehicula. nullam magna elementum non augue sodales eleifend id ac habitasse, aenean facilisis etiam primis arcu iaculis massa platea curabitur, eros dapibus vel sagittis litora et turpis tristique. euismod cubilia dictum magna velit aenean tellus quisque, donec porttitor felis molestie leo elit curabitur fringilla, etiam a rhoncus suspendisse velit lacus. blandit pretium placerat morbi habitasse sem quis pretium quam odio luctus, nam malesuada aliquam ultricies vel interdum placerat laoreet nullam orci, id erat pretium diam fringilla nisl himenaeos et est. 
+            </p>
+            <br>
+            <div>
+                <div class="gallery cf">
+                  <div>
+                    <img src="img/img_projectPersonalSite_lg.png" />
+                  </div>
+                  <div>
+                    <img src="img/img_projectPersonalSite_lg.png" />
+                  </div>
+                  <div>
+                    <img src="img/img_projectPersonalSite_lg.png" />
+                  </div>
+                  <div>
+                    <img src="img/img_projectPersonalSite_lg.png" />
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
-					<img id="btn_projects" class="btn_continue"  style="width:6s0%; height: 60%;"src="img/btn_Projects.png">
-
-					<img id="btn_email" class="btn_continue btn_contacts"  style="width:6s0%; height: 60%;"src="img/btn_email.png">
-
-					<br>
-
-                    <a href="https://github.com/futuretroy">
-					   <img id="btn_github" class="btn_continue btn_contacts"  style="width:6s0%; height: 60%; margin-left: -50px;"src="img/btn_github.png">
-                    </a>
-					<br>
-
-
-					<img id="btn_contact" class="btn_continue" onclick="console.log('btn_clicked');" style="width:4s0%; height: 60%; margin-left: -100px;"src="img/btn_Contact.png">
-
-                    <a href="resources/TroyBrown's_Resume_2018.pdf">
-					   <img id="btn_resume" class="btn_continue btn_contacts"  onclick="console.log('btn_clicked');" style="width:4s0%; height: 60%; margin-left: -100px;"src="img/btn_resume.png">
-                    </a>
-
-					<!-- onclick="chBgColor('#C3776C')" -->
-				</td>
-			</tr>
-		</table>
 
 
 
