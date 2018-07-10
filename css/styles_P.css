@@ -1,0 +1,72 @@
+body{
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-family: 'IBM Plex Sans Condensed', sans-serif;
+	background-color: #E6E6E4;
+	color: #424242;
+	transition: .5s ease;
+}
+
+.btn_home{
+	position: absolute; 
+	right: 40px; 
+	top: 40px;
+}
+
+#homeTable {
+	position: absolute; 
+	margin: 15% 20% 15% 20%; 
+	align-content: center
+}
+
+.title{
+	font-weight: bold;
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-size: 60px;
+}
+
+#title_projects{
+	color: white;
+	font-size: 2.5em;
+}
+
+
+
+#img_header{
+	transition: .5s ease;
+}
+
+
+
+.btn_continue:hover{
+	transition: .2s ease;
+	        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}
+
+.btn_color:hover{
+	display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+#btn_contact{
+		transition: .5s ease;
+}
+
+.btn_contacts{
+	display: none;
+}
+
+#btn_projects{
+	transition: .5s ease;
+}
+
+

@@ -1,48 +1,97 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<!-- Required meta tags -->
+    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-
-	<title>Troy Brown Designs</title>
     <link rel="shortcut icon" href="icons/favicon.png" type="image/png">
 
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <title>Troy M. Brown</title>
 
-	<link rel="stylesheet" type="text/css" href="styles_P.css">
 
-	<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed:400,700|IBM+Plex+Sans:400,400i,700" rel="stylesheet">
+    <!-- CSS Links -->
 
-	<link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <!-- Scrollbar Custom CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
 
-    <link rel="stylesheet" type="text/css" href="styles_P.css">
+    <link rel="stylesheet" type="text/css" href="css/sidebar.css">
+    <link rel="stylesheet" type="text/css" href="css/styles_P.css">
+    <link rel="stylesheet" type="text/css" href="css/steez.css">
+
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed:400,700|IBM+Plex+Sans:400,400i,700" rel="stylesheet">
 
 </head>
 
 
 
 <body>
-	<div  class="btn_continue" style="position: absolute; right: 40px; top: 40px;">	<img id="btn_home" src="img/img_logo.png" style="">
+	<div>	
+        <img id="btn_home" class="btn_home btn_continue" src="img/img_logo.png">
 	</div>
 
 	
-	<div class="wrapper">
-	<!-- Sidebar: Projects  -->
+	<div class="main">
+
+
+	<img class="btn_continue" src="img/btn_sidebar.png" id="sidebarCollapse" style="width:50px; position:  fixed; left: 0px; top: 31%;">
+
+
+    <br>
+
+                <!-- HOME -->
+        <div id="homeTable"> 
+    		<table>
+    			<tr>
+    				<td>
+    					<div  background-color: black;">
+    						<img id="img_header" style="width:250px; height: 250px;"src="img/img_header.png">
+    					</div>
+    				</td>
+
+    				<td style="padding-top: 10%; padding-left: 5%">
+    					<div id="txt_title">
+    						<h1 id="txt_titleH1" class="title" >Welcome</h1>
+    					</div>
+
+    					<hr style="width: 0%;">
+    					<br>
+
+
+    					<img id="btn_projects" class="btn_continue"  style="width:6s0%; height: 60%;"src="img/btn_Projects.png">
+
+    					<img id="btn_email" class="btn_continue btn_contacts"  style="width:6s0%; height: 60%;"src="img/btn_email.png">
+
+    					<br>
+
+                        <a href="https://github.com/futuretroy">
+    					   <img id="btn_github" class="btn_continue btn_contacts"  style="width:6s0%; height: 60%; margin-left: -50px;"src="img/btn_github.png">
+                        </a>
+    					<br>
+
+
+    					<img id="btn_contact" class="btn_continue" onclick="console.log('btn_clicked');" style="width:4s0%; height: 60%; margin-left: -100px;"src="img/btn_Contact.png">
+
+                        <a href="resources/TroyBrown's_Resume_2018.pdf">
+    					   <img id="btn_resume" class="btn_continue btn_contacts"  onclick="console.log('btn_clicked');" style="width:4s0%; height: 60%; margin-left: -100px;"src="img/btn_resume.png">
+                        </a>
+    				</td>
+    			</tr>
+    		</table>
+        </div> 
+
+        <!-- Sidebar: Projects  -->
         <nav id="sidebar">
             
 
             <div class="sidebar-header">
-            	<div class="btn_home" style="position: absolute; right: 40px; top: 40px;">	<img id="btn_sidebarHome" src="img/img_logoDark.png">
-				</div>
-				<div style="position: absolute; right: 40px; top: 145px;">
-					<h1 class= "title" id="title_projects" >Recent Projects</h1>
-					<br>
-					<img class="btn_continue" src="img/btn_more.png" style="position: relative; right: -60px; width: 270px">
-				</div>
+                <div class="btn_home" style="position: absolute; right: 40px; top: 40px;">  <img id="btn_sidebarHome" src="img/img_logoDark.png">
+                </div>
+                <div style="position: absolute; right: 40px; top: 145px;">
+                    <h1 class= "title" id="title_projects" >Recent Projects</h1>
+                    <br>
+                    <img class="btn_continue" src="img/btn_more.png" style="position: absolute; right: -60px; width: 270px">
+                </div>
                 
             </div>
 
@@ -54,246 +103,194 @@
             <br>
             <br>
             <br>
-
-            <!-- Project 1 -->
-            <table class="project" style="margin-left: 125px;">
-            	<tr>
-            		<td><img src="img/img_projectPX.png"></td>
-            		<td>
-            			<table>
-            				<tr>
-            					<td>
-            						<div class="projectHeader">
-            							<img src="img/img_devHeader.png">
-            							<h3>Perfect Execution</h3>
-            						</div>
-            					</td>
-            				</tr>
-            				<div class="project_content">
-	            				<tr>
-	            					<td>
-	            						<p>
-	            							Web presence and branding for a local photography, car modifications and event hosting club.
-	            						</p>
-	            					</td>
-	            				</tr>
-	            				<tr>
-	            					<td><img class="btn_continue"src="img/btn_continueR.png"></td>
-	            				</tr>
-            				</div>	
-            			</table>
-            		</td>
-            	</tr>
-            </table>
-
-            <br>
-            <br>
             <br>
 
+            <!-- Recent Projects -->
+            <div class="sidebar_recentProjects">
 
-                                    <!-- Project 2 -->
-            <table class="projectL" style="margin-left: 125px; margin-right: auto;">
-            	<tr>
-            		<td>
-            			<table>
-            				<tr>
-            					<td>
-            						<div class="projectHeader">
-            							<img src="img/img_graphicHeader.png">
-            							<h3>TopSpot Moblie App</h3>
-            						</div>
-            					</td>
-            				</tr>
-            				<div class="project_content">
-            				<tr>
-            					<td>
-            						<p>
-            							Concept screens for a mobile favorites locker.
-            							Currently still in development...
-            						</p>
-            					</td>
-            				</tr>
-            				<tr>
-            					<td><img class="btn_continue" src="img/btn_continueL.png" style="position: relative; right: -200px"></td>
-            				</tr>
-            				</div>
-            			</table>
-            		</td>
-            		<td class="project_imgL"><img src="img/img_projectTopSpot.png"></td>
-            	</tr>
-            </table>
-
-            <br>
-            <br>
-            <br>
-
-                        <!-- Project 3 -->
-            <table class="project" style="margin-left: 125px;">
-            	<tr>
-            		<td><img src="img/img_projectPersonalSite.png"></td>
-            		<td>
-            			<table>
-            				<tr>
-            					<td>
-            						<div class="projectHeader">
-            							<img src="img/img_devHeader.png">
-            							<h3>Personal Site 4.0</h3>
-            						</div>
-            					</td>
-            				</tr>
-            				<div class="project_content">
-            				<tr>
-            					<td>
-            						<p>
-            							The fourth iteration of my personal website for contacting and showcasing of past projects.
-            						</p>
-            					</td>
-            				</tr>
-            				<tr>
-            					<td><img class="btn_continue" src="img/btn_continueR.png"></td>
-            				</tr>
-            				</div>
-            			</table>
-            		</td>
-            	</tr>
-            </table>
-
-            <br>
-            <br>
-            <br>
-
-                        <!-- Project 4 -->
-            <table class="projectL" style="margin-left: 125px; margin-right: auto;">
-                <tr>
-                    <td>
-                        <table>
-                            <tr>
-                                <td>
-                                    <div class="projectHeader">
-                                        <img src="img/img_graphicHeader.png">
-                                        <h3>HashMaps Android App</h3>
+                <!-- Project 1 -->
+                <div class="sidebar_project">
+                    <table>
+                        <tr>
+                            <td><img src="img/img_projectPersonalSite.png"></td>
+                            <td>
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <div class="projectHeader">
+                                                <img src="img/img_devHeader.png">
+                                                <h3>Personal Site 4.0</h3>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <div class="project_content">
+                                    <tr>
+                                        <td>
+                                            <p>
+                                                The fourth iteration of my personal website for contacting and showcasing of past projects.
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href="project.html">
+                                                <img class="btn_continue" src="img/btn_continueR.png">
+                                            </a>
+                                        </td>
+                                    </tr>
                                     </div>
-                                </td>
-                            </tr>
-                            <div class="project_content">
-                            <tr>
-                                <td>
-                                    <p>
-                                        Android application that allows students to post and view geolocations that are points of interest on campus such as free food or a musical performance.
-                                    </p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td><img class="btn_continue" src="img/btn_continueL.png" style="position: relative; right: -200px"></td>
-                            </tr>
-                            </div>
-                        </table>
-                    </td>
-                    <td class="project_imgL"><img src="img/img_projectHashMaps.png"></td>
-                </tr>
-            </table>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
 
-                        <br>
-            <br>
-            <br>
 
-                        <!-- Project 3 -->
-            <table class="project" style="margin-left: 125px;">
-                <tr>
-                    <td><img src="img/img_projectALS.png"></td>
-                    <td>
-                        <table>
-                            <tr>
-                                <td>
-                                    <div class="projectHeader">
-                                        <img src="img/img_devHeader.png">
-                                        <h3>ALS Never Surrender</h3>
+                    <!-- Project 2 -->
+                <div class="sidebar_project">
+                    <table>
+                        <tr>
+                            <td>
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <div class="projectHeader">
+                                                <img src="img/img_graphicHeader.png">
+                                                <h3>TopSpot Moblie App</h3>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <div class="project_content">
+                                    <tr>
+                                        <td>
+                                            <p>
+                                                Concept screens for a mobile favorites locker.
+                                                Currently still in development...
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <img class="btn_continue" src="img/btn_continueL.png">
+                                        </td>
+                                    </tr>
                                     </div>
-                                </td>
-                            </tr>
-                            <div class="project_content">
-                            <tr>
-                                <td>
-                                    <p>
-                                        Android application to help monitor ALS patients’ disease progression through a series of limb mobility and appendage dexterity assessments.
+                                </table>
+                            </td>
+                            <td><img class="sidebar_projectImg" src="img/img_projectTopSpot.png"></td>
+                        </tr>
+                    </table>
+                </div>
 
-                                    </p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td><img class="btn_continue" src="img/btn_continueR.png"></td>
-                            </tr>
-                            </div>
-                        </table>
-                    </td>
-                </tr>
-            </table>
+                <!-- Project 3 -->
+                <div class="sidebar_project">
+                    <table>
+                        <tr>
+                            <td><img src="img/img_projectPX.png"></td>
+                            <td>
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <div class="projectHeader">
+                                                <img src="img/img_devHeader.png">
+                                                <h3>Perfect Execution</h3>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <div class="project_content">
+                                        <tr>
+                                            <td>
+                                                <p>
+                                                    Web presence and branding for a local photography, car modifications and event hosting club.
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <img class="btn_continue"src="img/btn_continueR.png">
+                                            </td>
+                                        </tr>
+                                    </div>  
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
 
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
+                            <!-- Project 4 -->
+                <div class="sidebar_project">
+                    <table>
+                        <tr>
+                            <td>
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <div class="projectHeader">
+                                                <img src="img/img_graphicHeader.png">
+                                                <h3>HashMaps Android App</h3>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <div class="project_content">
+                                    <tr>
+                                        <td>
+                                            <p>
+                                                Android application that allows students to post and view geolocations that are points of interest on campus such as free food or a musical performance.
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <img class="btn_continue" src="img/btn_continueL.png">
+                                        </td>
+                                    </tr>
+                                    </div>
+                                </table>
+                            </td>
+                            <td><img class="sidebar_projectImg" src="img/img_projectHashMaps.png"></td>
+                        </tr>
+                    </table>
+                </div>
 
+                            <!-- Project 5 -->
+                <div class="sidebar_project">
+                    <table>
+                        <tr>
+                            <td><img src="img/img_projectALS.png"></td>
+                            <td>
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <div class="projectHeader">
+                                                <img src="img/img_devHeader.png">
+                                                <h3>ALS Never Surrender</h3>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <div class="project_content">
+                                    <tr>
+                                        <td>
+                                            <p>
+                                                Android application to help monitor ALS patients’ disease progression through a series of limb mobility and appendage dexterity assessments.
 
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><img class="btn_continue" src="img/btn_continueR.png"></td>
+                                    </tr>
+                                    </div>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
 
-            
+                <br>
+                <br>
+
+            </div>
         </nav>
-    </nav>
-
-
-
-
-
-
-	<img class="btn_continue" src="img/btn_sidebar.png" id="sidebarCollapse" style="width:50px; position:  fixed; left: 0px; top: 31%;">
-
-
-
-
-
-
-    <br>
-
-		<table style="position: absolute; margin: 15% 20% 15% 20%; align-content: center">
-			<tr>
-				<td>
-					<div  background-color: black;">
-						<img id="img_header" style="width:250px; height: 250px;"src="img/img_header.png">
-					</div>
-				</td>
-
-				<td style="padding-top: 10%; padding-left: 5%">
-					<div id="txt_title">
-						<h1 id="txt_titleH1" class="title" >Welcome</h1>
-					</div>
-
-					<hr style="width: 0%;">
-					<br>
-
-
-					<img id="btn_projects" class="btn_continue"  style="width:6s0%; height: 60%;"src="img/btn_Projects.png">
-
-					<img id="btn_email" class="btn_continue btn_contacts"  style="width:6s0%; height: 60%;"src="img/btn_email.png">
-
-					<br>
-
-                    <a href="https://github.com/futuretroy">
-					   <img id="btn_github" class="btn_continue btn_contacts"  style="width:6s0%; height: 60%; margin-left: -50px;"src="img/btn_github.png">
-                    </a>
-					<br>
-
-
-					<img id="btn_contact" class="btn_continue" onclick="console.log('btn_clicked');" style="width:4s0%; height: 60%; margin-left: -100px;"src="img/btn_Contact.png">
-
-                    <a href="resources/TroyBrown's_Resume_2018.pdf">
-					   <img id="btn_resume" class="btn_continue btn_contacts"  onclick="console.log('btn_clicked');" style="width:4s0%; height: 60%; margin-left: -100px;"src="img/btn_resume.png">
-                    </a>
-
-					<!-- onclick="chBgColor('#C3776C')" -->
-				</td>
-			</tr>
-		</table>
 
 
 
@@ -302,179 +299,20 @@
 
 
 
+    <div class="overlay"></div>
 
 
-<div class="overlay"></div>
-
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <!-- jQuery CDN - Slim version (=without AJAX)
-    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!-- Popper.JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
     <!-- Bootstrap JS -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
     <!-- jQuery Custom Scroller CDN -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
-<!-- jQuery CDN - Slim version (=without AJAX) -->
-
-    <script type="text/javascript">
-    	var atHome = true;
-        $(document).ready(function () {
-        	
-            $("#sidebar").mCustomScrollbar({
-                theme: "minimal"
-            });
-
-            $('#dismiss, .overlay').on('click', function () {
-                $('#sidebar').removeClass('active');
-                $('.overlay').removeClass('active');
-            });
-
-            $('#btn_sidebarHome, .overlay').on('click', function () {
-                $('#sidebar').removeClass('active');
-                $('.overlay').removeClass('active');
-            });
-
-            $('#sidebarCollapse').on('click', function () {
-                $('#sidebar').addClass('active');
-                $('.overlay').addClass('active');
-                $('.collapse.in').toggleClass('in');
-                $('a[aria-expanded=true]').attr('aria-expanded', 'false');
-            });
-
-            $('#btn_home').on('click',function(){
-            	console.log('home clicked');
-
-            	
-
-            	if(!atHome){
-				$("#txt_titleH1").fadeOut(function () {
-				    $("#txt_titleH1").text(($("p").text() == 'Welcome') ? 'Get in touch...' : 'Welcome').fadeIn();
-				})
-
-            	$("#btn_projects").fadeOut();
-		        $('#btn_projects').toggleDisabled();
-		        $("#btn_contact").fadeOut();
-		        $('#btn_contact').toggleDisabled();
-
-		        $("#btn_resume").toggleDisabled();
-	        	$("#btn_github").toggleDisabled();
-	        	$("#btn_email").toggleDisabled();
-
-	        	$("#btn_resume").toggleDisabled();
-	        	$("#btn_github").toggleDisabled();
-	        	$("#btn_email").toggleDisabled();
-            	}
-            	
-
-			    
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
 
 
-            	revertHome();
-            });
-
-            $('#btn_projects').on('click', function () {
-            	
-                $('#sidebar').addClass('active');
-                $('.overlay').addClass('active');
-                $('.collapse.in').toggleClass('in');
-                $('a[aria-expanded=true]').attr('aria-expanded', 'false');
-            });
-
-            $("#btn_contact").on("click",function(){;
-            	$("#txt_titleH1").fadeOut(function () {
-            		$("#txt_titleH1").text(($("p").text() == 'Get in touch...') ? 'Welcome' : 'Get in touch...').fadeIn();
-        		})
-
-            	chBgColor();
-    		});
-
-    		// $("#btn_resume").toggleDisabled();
-      //   	$("#btn_github").toggleDisabled();
-      //   	$("#btn_email").toggleDisabled();
-		});
-        
-		
-
-        function chBgColor(){
-        	console.log("JS activated BGChanged");
-
-        	document.body.style.backgroundColor = '#C3776C';
-
-        	document.getElementById('btn_home').src="img/img_logoMed.png";
-
-        	document.getElementById('img_header').src="img/img_header2.png";
-
-        	//document.getElementById('');
-
-        	document.getElementById('txt_titleH1').style.color="#E6E6E4";
-
-
-        	// document.getElementById('btn_projects').style.opacity="0";
-        	// document.getElementById('btn_contact').style.opacity="0";
-        	// document.getElementById('btn_contact').src="img/btn_contactOpt.png";
-        	// document.getElementById('btn_contact').style.position="relative";
-        	// document.getElementById('btn_contact').style.right="-105px";
-        	// document.getElementById('btn_contact').style.width="175px";
-        	//document.getElementById('txt_aboutMe').style.opacity="1";
-        	//document.getElementById('txt_aboutTitle').style.opacity="1";
-   
-			
-        	atHome = false;
-	  		console.log(atHome);
-	  		return true;
-		}
-
-		function revertHome(){
-        	console.log("Home Reset");
-
-        	document.body.style.backgroundColor = '#E6E6E4';
-
-        	document.getElementById('btn_home').src="img/img_logo.png";
-
-        	document.getElementById('img_header').src="img/img_header.png";
-
-        	//document.getElementById('');
-
-        	document.getElementById('txt_titleH1').style.color="#424242";
-
-
-        	// document.getElementById('btn_projects').style.opacity="1";
-        	// document.getElementById('btn_contact').style.opacity="1";
-
-        	//document.getElementById('txt_aboutMe').style.opacity="1";
-        	//document.getElementById('txt_aboutTitle').style.opacity="1";
-   
-			
-
-	  		
-	  		return true;
-		}
-
-		(function ($) {
-		    $.fn.toggleDisabled = function () {
-		        return this.each(function () {
-		            var $this = $(this);
-		            $this.toggle($this.prop('disabled')).prop('disabled', !$this.prop('disabled')) 
-		        });
-		    };
-		})(jQuery);
-
-		$(function () {
-		    $('#btn_contact').click(function () {
-		    	$("#btn_projects").fadeOut();
-		        $('#btn_projects').toggleDisabled();
-		        $("#btn_contact").fadeOut();
-		        $('#btn_contact').toggleDisabled();
-
-			    $("#btn_resume").toggleDisabled();
-	        	$("#btn_github").toggleDisabled();
-	        	$("#btn_email").toggleDisabled();
-		    });
-		});
-    </script>
-
+    <script type="text/javascript" src="js/scriptScampi.js"></script>
     
 </body>
 </html>
