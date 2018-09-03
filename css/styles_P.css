@@ -112,28 +112,26 @@ body{
 		top: 80px;
 		width: 200px;
 	}
-
 	.title{
 		position: relative;
 		top: 300px;
 		text-align: center;
-		font-size: 25px;
+		font-size: 35px;
+		margin-bottom: 20px;
 	}
-
-	
 	#btn_projects{
 		position: relative;
 		height: auto;
-		width: 200px;
+		width: 245px;
 		top: 250px;
-		left: 90px;
+		left: 75px;
 	}
 	#btn_contact{
 		position: relative;
 		height: auto;
-		width: 160px;
-		top: 310px;
-    	left: -13px;
+		width: 200px;
+		top: 260px;
+    	left:75px;
 	}
 	#btn_email{
 		position: relative;
@@ -153,13 +151,11 @@ body{
 		width: 200px;
 		margin-left: -20px;
 	}
-
 	.btn_contacts{
 		/* position: relative;
 		height: 60%;*/
 		margin-bottom: 10px;
 	}
-
 	#groupContactsBtns{
 		position: relative;
 		top: 250px;
@@ -168,40 +164,6 @@ body{
 
 /*		Tablet		*/
 @media (min-width: 640px){
-	/* #btn_home{
-		width: 50px;
-	}
-	#sidebarCollapse{
-		width: 5%;
-	}
-	#homeTable{
-
-		top:0px;
-		margin: 0 20%;
-	}
-	
-
-	.title{
-		position: relative;
-		top: 300px;
-		text-align: center;
-		font-size: 25px;
-	}
-
-	
-	#btn_projects{
-		position: relative;
-		width: 200px;
-		top: 250px;
-		left: -10px;
-	}
-	#btn_contact{
-		position: relative;
-		width: 170px;
-		top: 220px;
-		left: 90px;
-	} */
-
 	.btn_home{
 		position: absolute; 
 		right: 40px; 
@@ -272,60 +234,7 @@ body{
 
 
 @media (min-width: 768px){
-	/* .btn_home{
-		position: absolute;
-		right: 40px; 
-		top: 0px;
-		width:75px;
-	}
 	
-	#homeTable {
-		position: relative; 
-		margin-top: 75px;
-		align-content: center
-	}
-	#img_header{
-		position: absolute;
-		top: 80px;
-		width: 175px;
-	}
-	#btn_projects{
-		position: relative;
-		margin-top: 40px;
-		left: 125px;
-		width: 475px; 
-		transition: .5s ease;
-	}
-	#btn_contact{
-		position: relative;
-		left: 75px;
-		width: 375px; 
-		transition: .5s ease;
-	}
-	
-	.title{
-		position: relative;
-		font-size: 70px;
-		left: 200px;
-	}
-	#btn_email{
-		height: 60%;
-	}
-	#btn_github{
-		height: 60%;
-		margin-left: -50px;
-	}
-	#btn_resume{
-		height: 60%;
-		margin-left: -100px;
-	}
-	
-	#sidebarCollapse{
-		width:50px; 
-		position:  fixed; 
-		left: 0px; 
-		top: 31%;
-	} */
 }
 @media (min-width: 1024px){
 	#img_header{
