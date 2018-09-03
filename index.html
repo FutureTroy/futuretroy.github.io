@@ -34,7 +34,7 @@
 	<div class="main">
 
 
-	<img class="btn_continue" src="img/btn_sidebar.png" id="sidebarCollapse" style="width:50px; position:  fixed; left: 0px; top: 31%;">
+	<img class="btn_continue" src="img/btn_sidebar.png" id="sidebarCollapse" style="">
 
 
     <br>
@@ -45,7 +45,7 @@
     			<tr>
     				<td>
     					<div  background-color: black;">
-    						<img id="img_header" style="width:250px; height: 250px;"src="img/img_header.png">
+    						<img id="img_header"src="img/img_header.png">
     					</div>
     				</td>
 
@@ -58,23 +58,27 @@
     					<br>
 
 
-    					<img id="btn_projects" class="btn_continue"  style="width:6s0%; height: 60%;"src="img/btn_Projects.png">
+                        <img id="btn_projects" class="btn_continue"  src="img/btn_Projects.png">
+                        
+                        <img id="btn_contact" class="btn_continue" onclick="console.log('btn_clicked');" src="img/btn_Contact.png">
 
-    					<img id="btn_email" class="btn_continue btn_contacts"  style="width:6s0%; height: 60%;"src="img/btn_email.png">
+                        <div id="groupContactsBtns">
+                            <img id="btn_email" class="btn_continue btn_contacts"  src="img/btn_email.png">
 
-    					<br>
+                            <br>
 
-                        <a href="https://github.com/futuretroy">
-    					   <img id="btn_github" class="btn_continue btn_contacts"  style="width:6s0%; height: 60%; margin-left: -50px;"src="img/btn_github.png">
-                        </a>
-    					<br>
+                            <a href="https://github.com/futuretroy">
+                            <img id="btn_github" class="btn_continue btn_contacts"  src="img/btn_github.png">
+                            </a>
 
+                            <br>
 
-    					<img id="btn_contact" class="btn_continue" onclick="console.log('btn_clicked');" style="width:4s0%; height: 60%; margin-left: -100px;"src="img/btn_Contact.png">
-
-                        <a href="resources/TroyBrown's_Resume_2018.pdf">
-    					   <img id="btn_resume" class="btn_continue btn_contacts"  onclick="console.log('btn_clicked');" style="width:4s0%; height: 60%; margin-left: -100px;"src="img/btn_resume.png">
-                        </a>
+                            <a href="resources/TroyBrown's_Resume_2018.pdf">
+                            <img id="btn_resume" class="btn_continue btn_contacts"  onclick="console.log('btn_clicked');"src="img/btn_resume.png">
+                            </a>
+                        </div>
+                        
+    					
     				</td>
     			</tr>
     		</table>

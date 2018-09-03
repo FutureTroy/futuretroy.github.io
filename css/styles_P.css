@@ -18,12 +18,40 @@ body{
 	align-content: center
 }
 
+#btn_projects{
+	width: 60%; 
+	margin-left: -100px;
+	transition: .5s ease;
+}
+#btn_contact{
+	width: 60%; 
+	margin-left: -100px;
+	transition: .5s ease;
+}
+
 .title{
 	font-weight: bold;
 	font-family: 'IBM Plex Sans', sans-serif;
 	font-size: 60px;
 }
+#btn_email{
+	height: 60%;
+}
+#btn_github{
+	height: 60%;
+	margin-left: -50px;
+}
+#btn_resume{
+	height: 60%;
+	margin-left: -100px;
+}
 
+#sidebarCollapse{
+	width:50px; 
+	position:  fixed; 
+	left: 0px; 
+	top: 31%;
+}
 #title_projects{
 	color: white;
 	font-size: 2.5em;
@@ -57,16 +85,307 @@ body{
     transition-duration: 0.3s;
 }
 
-#btn_contact{
+
+
+
+
+/* ---------------------------------------------------
+    BREAKPOINTS
+----------------------------------------------------- */
+/*		Phone		*/
+@media (max-width: 640px){
+	#btn_home{
+		top: 15px;
+		right: 15px;
+		width: 50px;
+	}
+	#sidebarCollapse{
+		width: 10%;
+	}
+	#homeTable{
+
+		top:0px;
+		margin: 0 20%;
+	}
+	#img_header{
+		position: absolute;
+		top: 80px;
+		width: 200px;
+	}
+
+	.title{
+		position: relative;
+		top: 300px;
+		text-align: center;
+		font-size: 25px;
+	}
+
+	
+	#btn_projects{
+		position: relative;
+		height: auto;
+		width: 200px;
+		top: 250px;
+		left: 90px;
+	}
+	#btn_contact{
+		position: relative;
+		height: auto;
+		width: 160px;
+		top: 310px;
+    	left: -13px;
+	}
+	#btn_email{
+		position: relative;
+		height: auto;
+		width: 200px;
+		margin-left: -20px;
+	}
+	#btn_github{
+		position: relative;
+		height: auto;
+		width: 200px;
+		margin-left: -20px;
+	}
+	#btn_resume{
+		position: relative;
+		height: auto;
+		width: 200px;
+		margin-left: -20px;
+	}
+
+	.btn_contacts{
+		/* position: relative;
+		height: 60%;*/
+		margin-bottom: 10px;
+	}
+
+	#groupContactsBtns{
+		position: relative;
+		top: 250px;
+	}
+}
+
+/*		Tablet		*/
+@media (min-width: 640px){
+	/* #btn_home{
+		width: 50px;
+	}
+	#sidebarCollapse{
+		width: 5%;
+	}
+	#homeTable{
+
+		top:0px;
+		margin: 0 20%;
+	}
+	
+
+	.title{
+		position: relative;
+		top: 300px;
+		text-align: center;
+		font-size: 25px;
+	}
+
+	
+	#btn_projects{
+		position: relative;
+		width: 200px;
+		top: 250px;
+		left: -10px;
+	}
+	#btn_contact{
+		position: relative;
+		width: 170px;
+		top: 220px;
+		left: 90px;
+	} */
+
+	.btn_home{
+		position: absolute; 
+		right: 40px; 
+		top: 40px;
+		width: 50px;
+	}
+	
+	#homeTable {
+		position: relative; 
+		margin: 0 15%; 
+		align-content: center
+	}
+	#img_header{
+		position: absolute;
+		top: 80px;
+		width: 200px;
+	}
+	#btn_projects{
+		position: relative;
+    	width: 250px;
+		margin-left: 200px;
+		margin-bottom: 15px;
 		transition: .5s ease;
+	}
+	#btn_contact{
+		width: 200px;
+    	margin-left: 125px;
+		transition: .5s ease;
+	}
+	
+	.title{
+		/* text-align: center; */
+		font-size: 45px;
+		margin-left: 200px;
+		margin-top: 50px;
+	}
+	#btn_email{
+		width: 200px;
+		margin-bottom: 3px;
+	}
+	#btn_github{
+		width: 200px;
+		margin-left: -50px;
+		margin-bottom: 3px;
+	}
+	#btn_resume{
+		width: 200px;
+		margin-left: -100px;
+		margin-bottom: 3px;
+	}
+	
+	#sidebarCollapse{
+		width:50px; 
+		position:  fixed; 
+		left: 0px; 
+		top: 31%;
+	}
+	#title_projects{
+		color: white;
+		font-size: 2.5em;
+	}
+	#groupContactsBtns{
+		position: relative;
+		margin-top: -25px;
+		margin-left: 200px;
+	}
 }
 
-.btn_contacts{
-	/*display: none;*/
+
+@media (min-width: 768px){
+	/* .btn_home{
+		position: absolute;
+		right: 40px; 
+		top: 0px;
+		width:75px;
+	}
+	
+	#homeTable {
+		position: relative; 
+		margin-top: 75px;
+		align-content: center
+	}
+	#img_header{
+		position: absolute;
+		top: 80px;
+		width: 175px;
+	}
+	#btn_projects{
+		position: relative;
+		margin-top: 40px;
+		left: 125px;
+		width: 475px; 
+		transition: .5s ease;
+	}
+	#btn_contact{
+		position: relative;
+		left: 75px;
+		width: 375px; 
+		transition: .5s ease;
+	}
+	
+	.title{
+		position: relative;
+		font-size: 70px;
+		left: 200px;
+	}
+	#btn_email{
+		height: 60%;
+	}
+	#btn_github{
+		height: 60%;
+		margin-left: -50px;
+	}
+	#btn_resume{
+		height: 60%;
+		margin-left: -100px;
+	}
+	
+	#sidebarCollapse{
+		width:50px; 
+		position:  fixed; 
+		left: 0px; 
+		top: 31%;
+	} */
 }
-
-#btn_projects{
-	transition: .5s ease;
+@media (min-width: 1024px){
+	#img_header{
+		width: 40%;
+		max-width: 320px;
+	}
+	.btn_home{
+		position: absolute;
+		right: 40px; 
+		top: 0px;
+		width:75px;
+	}
+	
+	#homeTable {
+		position: relative; 
+		margin-top: 75px;
+		align-content: center
+	}
+	#img_header{
+		position: absolute;
+		top: 80px;
+	}
+	#btn_projects{
+		position: relative;
+		margin-top: 40px;
+		left: 125px;
+		width: 475px; 
+		transition: .5s ease;
+	}
+	#btn_contact{
+		position: relative;
+		left: 75px;
+		width: 375px; 
+		transition: .5s ease;
+	}
+	
+	.title{
+		position: relative;
+		font-size: 70px;
+		left: 200px;
+	}
+	#btn_email{
+		height: 60%;
+	}
+	#btn_github{
+		height: 60%;
+		margin-left: -50px;
+	}
+	#btn_resume{
+		height: 60%;
+		margin-left: -100px;
+	}
+	
+	#sidebarCollapse{
+		width:50px; 
+		position:  fixed; 
+		left: 0px; 
+		top: 31%;
+	}
 }
+@media (min-width: 1200px){
 
-
+}
