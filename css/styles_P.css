@@ -160,6 +160,12 @@ body{
 		position: relative;
 		top: 250px;
 	}
+
+	/*		SIDEBAR CONTENT		*/
+
+	.sidebar_project{
+		display: none;
+	}
 }
 
 /*		Tablet		*/
@@ -274,16 +280,19 @@ body{
 	.title{
 		position: relative;
 		font-size: 70px;
-		left: 200px;
+		left: 175px;
 	}
 	#btn_email{
+		width: 275px;
 		height: 60%;
 	}
 	#btn_github{
+		width: 275px;
 		height: 60%;
 		margin-left: -50px;
 	}
 	#btn_resume{
+		width: 275px;
 		height: 60%;
 		margin-left: -100px;
 	}
@@ -293,6 +302,11 @@ body{
 		position:  fixed; 
 		left: 0px; 
 		top: 31%;
+	}
+	#groupContactsBtns{
+		position: relative;
+		margin-top: 45px;
+		margin-left: 300px;
 	}
 }
 @media (min-width: 1200px){
