@@ -167,7 +167,6 @@ body{
 		display: none;
 	}
 }
-
 /*		Tablet		*/
 @media (min-width: 640px){
 	.btn_home{
@@ -237,8 +236,6 @@ body{
 		margin-left: 200px;
 	}
 }
-
-
 @media (min-width: 768px){
 	
 }
