@@ -168,9 +168,9 @@ body{
 		width: 10%;
 	}
 	#dismiss{
+		z-index: 1;
 		width: 25px;
 		position: fixed;
-		margin-right: 20px;
 	}
 	#title_projects{
 		position: relative;
@@ -200,7 +200,6 @@ body{
 		padding: 15px;
 	}
 	.sidebar_mobileProject{
-		z-index: 3;
 		position: relative;
 		padding: 0 15%; 
 	}
