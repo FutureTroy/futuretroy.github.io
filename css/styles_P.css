@@ -195,6 +195,7 @@ body{
 		margin-top: -135px;
 	}
 	.sidebar_mobileProject{
+		z-index: 3;
 		margin: 0px auto;
 	}
 	.sidebar_mobileImg{
