@@ -168,7 +168,7 @@ body{
 		width: 10%;
 	}
 	#dismiss{
-		width: 10%;
+		width: 25px;
 		position: fixed;
 	}
 	#title_projects{
@@ -194,9 +194,15 @@ body{
 	.sidebar_recentProjects{
 		margin-top: -135px;
 	}
+	.sidebar_projectsMobile{
+		position: relative;
+		padding: 45px;
+	}
 	.sidebar_mobileProject{
-		z-index: 3;
-		margin: 0px auto;
+		/* z-index: 3;
+		position: relative;
+		right: 0px; */
+		/* margin: 0px auto; */
 	}
 	.sidebar_mobileImg{
 		background-size: contain;
