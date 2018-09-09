@@ -12,7 +12,7 @@
     position: absolute; 
     top: 80px; 
     right: 0px; 
-    width: 80%; -webkit-
+    width: 80%;
     transform: scaleX(-1); 
     transform: scaleX(-1);
 }
@@ -216,71 +216,7 @@ div.projectHeroOverlay h6{
 	
 }
 @media (min-width: 1024px){
-	/* #img_header{
-		width: 40%;
-		max-width: 320px;
-	}
-	.btn_home{
-		position: absolute;
-		right: 40px; 
-		top: 0px;
-		width:75px;
-	}
 	
-	#homeTable {
-		position: relative; 
-		margin-top: 75px;
-		align-content: center
-	}
-	#img_header{
-		position: absolute;
-		top: 80px;
-	}
-	#btn_projects{
-		position: relative;
-		margin-top: 40px;
-		left: 125px;
-		width: 475px; 
-		transition: .5s ease;
-	}
-	#btn_contact{
-		position: relative;
-		left: 75px;
-		width: 375px; 
-		transition: .5s ease;
-	}
-	
-	.title{
-		position: relative;
-		font-size: 70px;
-		left: 175px;
-	}
-	#btn_email{
-		width: 275px;
-		height: 60%;
-	}
-	#btn_github{
-		width: 275px;
-		height: 60%;
-		margin-left: -50px;
-	}
-	#btn_resume{
-		width: 275px;
-		height: 60%;
-		margin-left: -100px;
-	}
-	
-	#sidebarCollapse{
-		width:50px; 
-		position:  fixed; 
-		left: 0px; 
-		top: 31%;
-	}
-	#groupContactsBtns{
-		position: relative;
-		margin-top: 45px;
-		margin-left: 300px;
-	} */
 }
 @media (min-width: 1200px){
 

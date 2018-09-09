@@ -63,7 +63,7 @@ function chBgColor(){
 	document.body.style.backgroundColor = '#C3776C';
 
 	document.getElementById('btn_home').src="img/img_logoMed.png";
-
+    
 	document.getElementById('img_header').src="img/img_header2.png";
 
 	document.getElementById('txt_titleH1').style.color="#E6E6E4";

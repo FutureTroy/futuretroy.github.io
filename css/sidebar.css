@@ -152,7 +152,6 @@ a:focus {
 
 .sidebar_recentProjects:nth-child(even) .sidebar_projectImg{
     position: relative;
-    left: 100px;
 }
 
 .sidebar_project:nth-child(even) h3{
@@ -166,10 +165,6 @@ a:focus {
 .projectHeader img{
      position: relative; 
      /*width: 70%;*/
-}
-.sidebar_project:nth-child(even) .sidebar_projectImg{
-    position: relative;
-    left: -00px;
 }
 .projectHeader h3{ 
     position: relative;
@@ -201,7 +196,7 @@ a:focus {
     opacity: 0;
         transition: .5s ease;
 }
-.sidebar_project:nth-child(even) .btn_continue{
+.sidebar_project:nth-child(odd) .btn_continue{
     position: relative; 
     right: -200px
 }
