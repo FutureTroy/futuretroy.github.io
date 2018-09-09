@@ -195,7 +195,7 @@ body{
 		margin-top: -135px;
 	}
 	.sidebar_mobileProject{
-		margin: 0px 20%;
+		margin: 0px auto;
 	}
 	.sidebar_mobileImg{
 		background-size: contain;
