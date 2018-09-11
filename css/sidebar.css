@@ -68,8 +68,8 @@ a:focus {
     line-height: 35px;
     text-align: center;
     background: #5D0D03;
-    position: absolute;
-    top: 33%;
+    position: fixed;
+    top: 30%;
     left: -5 px;
     cursor: pointer;
     -webkit-transition: all 0.3s;
@@ -119,15 +119,17 @@ a:focus {
     top: 0;
     right: 0;
 }
-
+.sidebar_recentProjects{
+    margin: 0 8%;
+}
 .sidebar_project {
-    margin-left: 125px;
+    /* margin-left: 125px; */
     margin-bottom: 85px;
 }
 
 .sidebar_project:nth-child(even) {
-    margin-left: 125px; 
-    margin-right: auto;
+    /* margin-left: 125px; 
+    margin-right: auto; */
 }
 .sidebar_project p{
     color: white;
@@ -157,7 +159,10 @@ a:focus {
 .sidebar_project:nth-child(even) h3{
     left: 80px;
 }
-
+.flipHorizontally{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
 .projectHeader{
     position: relative;
     top: 0px;
@@ -196,7 +201,6 @@ a:focus {
     opacity: 0;
         transition: .5s ease;
 }
-.sidebar_project:nth-child(odd) .btn_continue{
-    position: relative; 
-    right: -200px
+.sidebar_project:nth-child(even) .btn_continue{
+    float: right;
 }
