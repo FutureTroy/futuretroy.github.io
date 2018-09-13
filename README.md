@@ -12,4 +12,4 @@ A snapshot of what I’ve been working on lately; That’s the primary purpose I
 
 ## Authors
 
-* **Troy Brown** - *Developer & Designer* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Troy Brown** - *Developer & Designer* 
