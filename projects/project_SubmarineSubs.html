@@ -20,6 +20,7 @@
     <link rel="stylesheet" type="text/css" href="../css/sidebar.css">
     <link rel="stylesheet" type="text/css" href="../css/styles_P.css">
     <link rel="stylesheet" type="text/css" href="../css/steez.css">
+    <link rel="stylesheet" type="text/css" href="../css/imageViewer.css">
 
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed:400,700|IBM+Plex+Sans:400,400i,700" rel="stylesheet">
 
@@ -67,8 +68,9 @@
                     recipes displayed in the game’s user interface.
 
             </p>
-
-            <img class="img_body" src="../img/screenshots/ss_sm_ui.jpg">
+            <a class="thumbnail">
+                <img class="img_body" src="../img/screenshots/ss_sm_ui.jpg">
+            </a>
             <br>
             <br>
 
@@ -81,22 +83,30 @@
             <br>
             <div>
                 <div class="gallery cf" style="background:#2f7a9d;">
-                  <div>
+                  <div class="thumbnail">
                     <img src="../img/screenshots/ss_sm_Instructions.png" />
                   </div>
-                  <div>
+                  <div class="thumbnail">
                         <img src="../img/screenshots/ss_sm_blank.png" />
                       </div>
-                  <div>
+                  <div class="thumbnail">
                     <img src="../img/screenshots/ss_sm_uiOverview.png" />
                   </div>
-                  <div>
+                  <div class="thumbnail">
                     <img src="../img/screenshots/ss_sm_gameOver.png" />
                   </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <!-- Image Viewer -->
+    <div class="thumb-viewer">
+            <a class="prev"></a>
+            <a class="next"></a>
+            <a class="close">x</a>
+            <div class="viewer-body close"></div>
+            </div>
 
     <!-- Sidebar: Projects  -->
     <nav id="sidebar">
@@ -438,6 +448,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
     <!-- jQuery CDN - Slim version (=without AJAX) -->
     <script type="text/javascript" src="../js/scriptScampi.js"></script>
+    <script type="text/javascript" src="../js/imageViewer.js"></script>
     
 </body>
 </html>

@@ -20,6 +20,7 @@
     <link rel="stylesheet" type="text/css" href="../css/sidebar.css">
     <link rel="stylesheet" type="text/css" href="../css/styles_P.css">
     <link rel="stylesheet" type="text/css" href="../css/steez.css">
+    <link rel="stylesheet" type="text/css" href="../css/imageViewer.css">
 
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed:400,700|IBM+Plex+Sans:400,400i,700" rel="stylesheet">
 
@@ -75,24 +76,27 @@
             <p>
                     This current version of the site was built over the course of 2 months when the spare time was available. Prototyping how I wanted each page layout to look for each screen size took the majority of the time. Prototyping was done using Sketch, Craft, and Axure.
             </p>
-
-            <img class="img_body" src="../img/img_projectPersonalSiteSkeleton.png">
+            <a class="thumbnail">
+                <img class="img_body" src="../img/img_projectPersonalSiteSkeleton.png">
+            </a>
             <br>
             <br>
 
             <p>
                     I wanted the design to follow the aesthetic set fourth by my prism logo. Starting with the overall shape of the logo, the angularness and forty-five degree angled sides of the shape led me to stagger the alignments of the elements on the page. This creates diagonal sight lines that smoothly line up from one visual element to the next. Next, I wanted the forefront of the logo (everything contained in the  rotated outlined square) to convey motion. I wanted the square in the forefront to seem as though it was elevating above its background. This manifest its self in the design language of the site with the transitional scaling of buttons when they are in focus. The letters “tB” are actually contained within the outlined square, cropped prematurely by its container’s rotated sides. The standalone images on the website share that similar cropping style.
             </p>
-
-            <img class="img_body" src="../img/screenshots/ss_ps_uiLogo.png">
+            <a class="thumbnail">
+                <img class="img_body" src="../img/screenshots/ss_ps_uiLogo.png">
+            </a>
             <br>
             <br>
 
             <p>
                     Layout responsiveness was a primary requirement for this project so I built the site around principles of simplicity and modularity to meet this requirement. Elements, such as buttons and images, are not visually linked which makes repositioning for different screen sizes easy and clear. Visual elements around the site often share the same fundamental asset allowing for easy reuse and rapid prototyping.
             </p>
-
+            <a class="thumbnail">
             <img class="img_body" src="../img/screenshots/ss_ps_uiMobile.png">
+            </a>
             <br>
             <br>
 
@@ -100,19 +104,19 @@
             <br>
             <div>
                 <div class="gallery cf">
-                  <div>
+                  <div class="thumbnail">
                     <img src="../img/screenshots/ss_site_sketch.jpg" />
                   </div>
-                  <div>
+                  <div class="thumbnail">
                     <img src="../img/screenshots/ss_ps_uiV3.png" />
-                </div>
-                  <div>
+                  </div>
+                  <div class="thumbnail">
                     <img src="../img/img_projectPersonalSiteSkeleton.png" />
                   </div>
-                  <div>
+                  <div class="thumbnail">
                         <img src="../img/screenshots/ss_site_v1Project.png" />
                       </div>
-                  <div>
+                  <div class="thumbnail">
                     <img src="../img/screenshots/ss_site_uiOverview.png" />
                   </div>
 
@@ -120,6 +124,14 @@
             </div>
         </div>
     </div>
+
+    <!-- Image Viewer -->
+    <div class="thumb-viewer">
+        <a class="prev"></a>
+        <a class="next"></a>
+        <a class="close">x</a>
+        <div class="viewer-body close"></div>
+     </div>
 
     <!-- Sidebar: Projects  -->
     <nav id="sidebar">
@@ -461,6 +473,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
     <!-- jQuery CDN - Slim version (=without AJAX) -->
     <script type="text/javascript" src="../js/scriptScampi.js"></script>
+    <script type="text/javascript" src="../js/imageViewer.js"></script>
 
 </body>
 </html>

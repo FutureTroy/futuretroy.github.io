@@ -20,6 +20,7 @@
     <link rel="stylesheet" type="text/css" href="../css/sidebar.css">
     <link rel="stylesheet" type="text/css" href="../css/styles_P.css">
     <link rel="stylesheet" type="text/css" href="../css/steez.css">
+    <link rel="stylesheet" type="text/css" href="../css/imageViewer.css">
 
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed:400,700|IBM+Plex+Sans:400,400i,700" rel="stylesheet">
 
@@ -72,16 +73,18 @@
             <p style="color:#365CBF;">   TopSpot is a personal favorites journal first. And social network second. Log what you care about and like the most in an easy to manage easy to share app that can be shared with your closest friends and loved ones. Discover a new or shared favorite from your friends. Or debate what really deserves that #1 spot! 
 
             </p>
-
-            <img class="img_body" src="../img/screenshots/ss_ts_Promo.png">
+            <a class="thumbnail">
+                <img class="img_body" src="../img/screenshots/ss_ts_Promo.png">
+            </a>
             <br>
             <br>
 
             <p style="color:#365CBF;">
                   TopSpot is still under development and I will continue to post news and progress on this page as more things come to fruition. 
             </p>
-
-            <img class="img_body" src="../img/screenshots/ss_ts_flow.png">
+            <a class="thumbnail">
+                <img class="img_body" src="../img/screenshots/ss_ts_flow.png">
+            </a>
             <br>
             <br>
 
@@ -89,21 +92,29 @@
             <br>
             <div>
                 <div class="gallery cf" style="background:#4774f7;">
-                  <div>
+                  <div class="thumbnail">
                     <img src="../img/screenshots/ss_ts_logoSketch.jpg" />
                   </div>
-                  <div>
+                  <div class="thumbnail">
                     <img src="../img/screenshots/ss_ts_uiV1.png" />
                   </div>
-                  <div>
+                  <div class="thumbnail">
                     <img src="../img/screenshots/ss_ts_flow.png" />
                   </div>
-                  <div>
+                  <div class="thumbnail">
                     <img src="../img/screenshots/ss_ts_Promo.png" />
                   </div>
                 </div>
             </div>
         </div>
+    </div>
+
+    <!-- Image Viewer -->
+    <div class="thumb-viewer">
+        <a class="prev"></a>
+        <a class="next"></a>
+        <a class="close">x</a>
+        <div class="viewer-body close"></div>
     </div>
 
         <!-- Sidebar: Projects  -->
@@ -446,6 +457,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
     <!-- jQuery CDN - Slim version (=without AJAX) -->
     <script type="text/javascript" src="../js/scriptScampi.js"></script>
+    <script type="text/javascript" src="../js/imageViewer.js"></script>
     
 </body>
 </html>

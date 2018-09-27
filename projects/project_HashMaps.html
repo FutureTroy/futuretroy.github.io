@@ -20,6 +20,7 @@
     <link rel="stylesheet" type="text/css" href="../css/sidebar.css">
     <link rel="stylesheet" type="text/css" href="../css/styles_P.css">
     <link rel="stylesheet" type="text/css" href="../css/steez.css">
+    <link rel="stylesheet" type="text/css" href="../css/imageViewer.css">
 
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed:400,700|IBM+Plex+Sans:400,400i,700" rel="stylesheet">
 
@@ -68,37 +69,47 @@
                     performance.
 
             </p>
-
-            <img class="img_body" src="../img/screenshots/ss_hm_uiOverview.png">
+            <a class="thumbnail">
+                <img class="img_body" src="../img/screenshots/ss_hm_uiOverview.png">
+            </a>
             <br>
             <br>
 
             <p style="color:#678d2f;">
                   This project served as a great introduction into the complexity of Android development, Google API integration, and Amazon Web Services. The old code's quality reflects my early android development skills and is available on my Github. The complete rewrite and web interface is a work in progress at the moment so stay tuned! 
             </p>
-
-            <img class="img_body" src="../img/screenshots/ss_hm_v.jpg">
+            <a class="thumbnail">
+                <img class="img_body" src="../img/screenshots/ss_hm_v.jpg">
+            </a>
             <br>
             <br>
             <br>
             <br>
             <div>
                 <div class="gallery cf" style="background:#82b238;">
-                  <div>
+                  <div class="thumbnail">
                     <img src="../img/screenshots/ss_hm_early.jpg" />
                   </div>
-                  <div>
+                  <div class="thumbnail">
                     <img src="../img/screenshots/ss_hm_webUI.png" />
                   </div>
-                  <div>
+                  <div class="thumbnail">
                     <img src="../img/screenshots/ss_hm_mobileUI2.png" />
                   </div>
-                  <div>
+                  <div class="thumbnail">
                     <img src="../img/screenshots/ss_hm_stylesheet.png" />
                   </div>
                 </div>
             </div>
         </div>
+    </div>
+
+    <!-- Image Viewer -->
+    <div class="thumb-viewer">
+        <a class="prev"></a>
+        <a class="next"></a>
+        <a class="close">x</a>
+        <div class="viewer-body close"></div>
     </div>
 
     <!-- Sidebar: Projects  -->
@@ -441,6 +452,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
     <!-- jQuery CDN - Slim version (=without AJAX) -->
     <script type="text/javascript" src="../js/scriptScampi.js"></script>
+    <script type="text/javascript" src="../js/imageViewer.js"></script>
     
 </body>
 </html>

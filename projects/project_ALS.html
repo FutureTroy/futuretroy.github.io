@@ -20,6 +20,7 @@
     <link rel="stylesheet" type="text/css" href="../css/sidebar.css">
     <link rel="stylesheet" type="text/css" href="../css/styles_P.css">
     <link rel="stylesheet" type="text/css" href="../css/steez.css">
+    <link rel="stylesheet" type="text/css" href="../css/imageViewer.css">
 
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed:400,700|IBM+Plex+Sans:400,400i,700" rel="stylesheet">
 
@@ -66,8 +67,9 @@
             <p style="color:#b83434;">   As my senior capstone project, my team of 3 classmates were given the opportunity to work with the  organization ALS Never Surrender. The goal of the ALS Never Surrender organization is to put an end to the helpless feeling ALS patients feel by empowering them to play an active role in monitoring their own progression but also ensure that each patient’s journey is tracked for current and future researchers to help unlock the mystery of this disease. Our task was to create an android version of this organization’s ideal monitoring application to allow for ALS patients to contribute their day-to-day condition and intake regimen to ALS Never Surrender organization.
 
             </p>
-
-            <img class="img_body" src="../img/screenshots/ss_als_uiMobile.png">
+            <a class="thumbnail">
+                <img class="img_body" src="../img/screenshots/ss_als_uiMobile.png">
+            </a>
             <br>
             <br>
 
@@ -80,19 +82,27 @@
             <br>
             <div>
                 <div class="gallery cf" style="background:#b83434;">
-                <div>
+                <div class="thumbnail">
                     <img src="../img/screenshots/ss_als_v1.jpeg" />
                 </div>
-                  <div>
+                  <div class="thumbnail">
                     <img src="../img/screenshots/ss_als_uiOverview.png" />
                   </div>
-                  <div>
+                  <div class="thumbnail">
                     <img src="../img/screenshots/ss_als_uiMobile.png" />
                   </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <!-- Image Viewer -->
+    <div class="thumb-viewer">
+            <a class="prev"></a>
+            <a class="next"></a>
+            <a class="close">x</a>
+          <div class="viewer-body close"></div>
+         </div>
 
     <!-- Sidebar: Projects  -->
     <nav id="sidebar">
@@ -434,6 +444,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
     <!-- jQuery CDN - Slim version (=without AJAX) -->
     <script type="text/javascript" src="../js/scriptScampi.js"></script>
+    <script type="text/javascript" src="../js/imageViewer.js"></script>
     
 </body>
 </html>
