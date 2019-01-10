@@ -2,25 +2,14 @@ var atHome = true;
 
 $(document).ready(function () {
     toggleTableBtns();
-    $("#sidebar").mCustomScrollbar({
-        theme: "minimal"
-    });
-
-    $('#dismiss, .overlay').on('click', function () {
-        $('#sidebar').removeClass('active');
-        $('.overlay').removeClass('active');
-    });
-
-    $('#btn_sidebarHome, .overlay').on('click', function () {
-        $('#sidebar').removeClass('active');
-        $('.overlay').removeClass('active');
-    });
+    $('.ui.sidebar') .sidebar('setting', { transition: 'overlay' }) ;
 
     $('#sidebarCollapse').on('click', function () {
-        $('#sidebar').addClass('active');
-        $('.overlay').addClass('active');
-        $('.collapse.in').toggleClass('in');
-        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+        $('.ui.sidebar').sidebar('toggle');
+    });
+
+    $('.btnSidebarClose').on('click', function () {
+        $('.ui.sidebar').sidebar('toggle');
     });
 
     $('#btn_home').on('click', function() {
@@ -38,21 +27,19 @@ $(document).ready(function () {
     });
 
     $('#btn_projects').on('click', function () {
-    	
-        $('#sidebar').addClass('active');
-        $('.overlay').addClass('active');
-        $('.collapse.in').toggleClass('in');
-        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+    	$('.ui.sidebar').sidebar('toggle');
     });
 
     $("#btn_contact").on("click",function(){;
+        console.log("");
     	$("#txt_titleH1").fadeOut(function () {
-    		$("#txt_titleH1").text(($("p").text() == 'Get in touch...') ? 'Welcome' : 'Get in touch...').fadeIn();
+            $("#txt_titleH1").text(($("p").text() == 'Get in touch...') ? 'Welcome' : 'Get in touch...').fadeIn();
 		})
-
     	chBgColor();
         toggleTableBtns();
-	});
+    });
+
+    document.getElementById('mainBody').style.background = '#E6E6E4';
 });
 
 
@@ -60,7 +47,7 @@ $(document).ready(function () {
 function chBgColor(){
 	console.log("JS activated BGChanged");
 
-	document.body.style.backgroundColor = '#C3776C';
+	document.getElementById('mainBody').style.background = '#C3776C';
 
 	document.getElementById('btn_home').src="img/img_logoMed.png";
     
@@ -77,7 +64,7 @@ function chBgColor(){
 function revertHome(){
 	console.log("Home Reset");
 
-	document.body.style.backgroundColor = '#E6E6E4';
+	document.getElementById('mainBody').style.background = '#E6E6E4';
 
 	document.getElementById('btn_home').src="img/img_logo.png";
 

@@ -12,12 +12,8 @@
 
     <!-- CSS Links -->
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
 
-    <!-- Scrollbar Custom CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
-
-    <link rel="stylesheet" type="text/css" href="../css/sidebar.css">
     <link rel="stylesheet" type="text/css" href="../css/styles_P.css">
     <link rel="stylesheet" type="text/css" href="../css/steez.css">
     <link rel="stylesheet" type="text/css" href="../css/imageViewer.css">
@@ -29,449 +25,286 @@
 
 
 <body>
-    <!-- Home Button -->
-	<div >
+    <div class="ui sidebar  inverted left ">
+        <img class="btn_home btn_continue btnSidebarClose"src="../img/img_logoDark.png">
+        
+        <h2 class="subtitle">Recent work</h2>
+
+        <img id="dismiss" class="btn_continue btnSidebarClose" src="../img/btn_close.png" >
+
+        <div class="projectList">
+
+            <div class="project"> 
+                <a href="../projects/project_Site.html">
+                    <div class="projectHero">
+                        <div class="heroOverlay">
+                            <img class="projectImg" src="../img/screenshots/ss_site_uiOverview.png">
+                        </div>
+                        <img class="projectBanner" src="../img/img_devHeader.png">
+                        <div class="projectBannerDetails">
+                            <span class="projectBannerBadges">
+                                <img src="../img/badges/jquery.png" class="badge">
+                                <img src="../img/badges/sketch.png" class="badge">
+                            </span>
+                            <h4>Web Development</h4>
+                        </div>
+                    </div>
+                </a>
+                <div class="projectDetails">
+                    <h1>Personal Site 4.5</h1>
+                    <div class="projectBreakdown">
+                        <div class="projectDetailsImgs">
+                            <img src="../img/screenshots/ss_ps_uiMobile.png">
+                            <img src="../img/screenshots/ss_ps_uiLogo.png">
+                        </div>
+                        <div>
+                            <p> The fourth iteration of my personal website. This site serves as a means of contact for potential clients and a portfolio of previous works.</p>
+                        </div>
+                    
+                        <a href="../projects/project_Site.html">
+                            <img class="btn_continue" src="../img/btn_continueR.png">
+                        </a>
+                    </div>
+                </div>                       
+            </div>
+
+            <div class="project">
+                <a href="../projects/project_ALS.html">
+                    <div class="projectHero">
+                        <div class="heroOverlay">
+                            <img class="projectImg" src="../img/screenshots/ss_als_uiOverview.png">
+                        </div>
+                        <img class="projectBanner" src="../img/img_devHeader.png">
+                        <div class="projectBannerDetails">
+                            <span class="projectBannerBadges">
+                                <img src="../img/badges/android.png" class="badge">
+                                <img src="../img/badges/sql.png" class="badge">
+                            </span>
+                            <h4>Android</h4>
+                        </div>
+                    </div>  
+                </a>
+                <div class="projectDetails">
+                    <h1>ALS Never Surrender</h1>
+                    <div class="projectBreakdown">
+                        <div class="projectDetailsImgs">
+                            <img src="../img/screenshots/ss_als_v2.png">
+                            <img src="../img/screenshots/ss_als_uiMobile.png">
+                        </div>
+                        <div>
+                            <p>An Android application to help monitor ALS patients’ disease progression through a series of limb mobility and appendage dexterity assessments.</p>
+                        </div>
+                    
+                        <a href="../projects/project_ALS.html">
+                            <img class="btn_continue" src="../img/btn_continueR.png">
+                        </a>
+                    </div>
+                </div>      
+            </div>
+
+            <div class="project">
+                <a href="../projects/project_HashMaps.html">
+                    <div class="projectHero">
+                        <div class="heroOverlay">
+                            <img class="projectImg" src="../img/screenshots/ss_hm_uiOverview.png">
+                        </div>
+                        <img class="projectBanner" src="../img/img_devHeader.png">
+                        <div class="projectBannerDetails">
+                            <span class="projectBannerBadges">
+                                <img src="../img/badges/android.png" class="badge">
+                                <img src="../img/badges/aws.png" class="badge">
+                            </span>
+                            <h4>Android + Web</h4>
+                        </div>
+                    </div>
+                </a>
+                <div class="projectDetails">
+                    <h1>Hashmaps App</h1>
+                    <div class="projectBreakdown">
+                        <div class="projectDetailsImgs">
+                            <img src="../img/screenshots/ss_hm_early.jpg">
+                            <img src="../img/screenshots/ss_hm_webUI.png">
+                        </div>
+                        <div>
+                            <p>An Android application that allows students to post and view geolocations that are points of interest on campus such as free food or a musical performance.</p>
+                        </div>
+                    
+                        <a href="../projects/project_HashMaps.html">
+                            <img class="btn_continue" src="../img/btn_continueR.png">
+                        </a>
+                    </div>
+                </div>   
+            </div>
+
+            <div class="project">
+                <a href="../projects/project_TopSpot.html">
+                    <div class="projectHero">
+                        <div class="heroOverlay">
+                            <img class="projectImg" src="../img/screenshots/ss_ts_Promo.png">
+                        </div>
+                        <img class="projectBanner" src="../img/img_graphicHeader.png">
+                        <div class="projectBannerDetails">
+                            <span class="projectBannerBadges">
+                                <img src="../img/badges/android.png" class="badge">
+                                <img src="../img/badges/sketch.png" class="badge">
+                            </span>
+                            <h4>UI Design</h4>
+                        </div>
+                    </div>
+                </a>
+                <div class="projectDetails">
+                    <h1>TopSpot App</h1>
+                    <div class="projectBreakdown">
+                        <div class="projectDetailsImgs">
+                            <img src="../img/screenshots/ss_ts_flow.png">
+                            <img src="../img/screenshots/ss_ts_uiV1.png">
+                        </div>
+                        <div>
+                            <p>A work-in-progress for a mobile favorites locker. The application is still in early stages and still in development.</p>
+                        </div>
+                    
+                        <a href="../projects/project_TopSpot.html">
+                            <img class="btn_continue" src="../img/btn_continueR.png">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project"> 
+                <a href="../projects/project_SubmarineSubs.html">
+                    <div class="projectHero">
+                        <div class="heroOverlay">
+                            <img class="projectImg" src="../img/screenshots/ss_sm_ui.jpg">
+                        </div>
+                        <img class="projectBanner" src="../img/img_devHeader.png">
+                        <div class="projectBannerDetails">
+                            <span class="projectBannerBadges">
+                                <img src="../img/badges/csharp.png" class="badge">
+                                <img src="../img/badges/illustrator.png" class="badge">
+                            </span>
+                            <h4>Windows Dev</h4>
+                        </div>
+                    </div>
+                </a>
+                <div class="projectDetails">
+                    <h1>Submarine Subs Game</h1>
+                    <div class="projectBreakdown">
+                        <div class="projectDetailsImgs">
+                            <img src="../img/screenshots/ss_sm_startScreen.png">
+                            <img src="../img/screenshots/CompleteSandwich.png">
+                        </div>
+                        <div>
+                            <p>A C# game which utilizes OOD patterns. Users are to build as many sandwiches as possible in accordance to predetermined recipes displayed in the game’s user interface.</p>
+                        </div>
+                    
+                        <a href="../projects/project_SubmarineSubs.html">
+                            <img class="btn_continue" src="../img/btn_continueR.png">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+
+
+
+
+
+    <div class="pusher" id="mainBody" role="main">
+        <!-- Home Button -->
         <a href="../index.html">
             <img class="btn_continue btn_home" src="../img/img_logo.png">
         </a>
-	</div>
+        
 
+        <img class="btn_continue" src="../img/btn_sidebar.png" id="sidebarCollapse">
 
-	<div class="wrapper">
+        <div class="projectHeroImg">
 
+            <div class="projectHeroOverlay">
+                <img class="projectLogo" src="../img/img_tblogoProject.png">
+            </div>
+            <div class="projectHeroContent">
 
+                    <h1>Personal Site 4.0</h1>
+                    <h6 class="txt_date">January 7, 2018</h6>
+                    <img class="img_headerR" src="../img/img_devHeader.png">
+                    <h6 class="txt_header">Web Development</h6>
+            </div>
 
-
-
-
-
-	<img class="btn_continue" src="../img/btn_sidebar.png" id="sidebarCollapse">
-
-
-    <style type="text/css">
-
-    </style>
-
-    <div class="projectHeroImg">
-
-        <div class="projectHeroOverlay">
-            <img class="projectLogo" src="../img/img_tblogoProject.png">
-        </div>
-         <div class="projectHeroContent">
-
-                <h1>Personal Site 4.0</h1>
-                <h6>January 7, 2018</h6>
-                <img class="img_headerR" src="../img/img_devHeader.png">
-                <h6 class="txt_header">Web Development</h6>
         </div>
 
-    </div>
-
-    <div class="projectBody">
-        <div class="">
-
-
-            <p>   A snapshot of what I’ve been working on lately; That’s the primary purpose I wanted this website to serve. In addition to that, the site serves as a test lab for my ideas unrestricted by client requirements. A place for my professional and passion projects to coexist.
-            </p>
-            <p>
-                    This current version of the site was built over the course of 2 months when the spare time was available. Prototyping how I wanted each page layout to look for each screen size took the majority of the time. Prototyping was done using Sketch, Craft, and Axure.
-            </p>
-            <a class="thumbnail">
-                <img class="img_body" src="../img/img_projectPersonalSiteSkeleton.png">
-            </a>
-            <br>
-            <br>
-
-            <p>
-                    I wanted the design to follow the aesthetic set fourth by my prism logo. Starting with the overall shape of the logo, the angularness and forty-five degree angled sides of the shape led me to stagger the alignments of the elements on the page. This creates diagonal sight lines that smoothly line up from one visual element to the next. Next, I wanted the forefront of the logo (everything contained in the  rotated outlined square) to convey motion. I wanted the square in the forefront to seem as though it was elevating above its background. This manifest its self in the design language of the site with the transitional scaling of buttons when they are in focus. The letters “tB” are actually contained within the outlined square, cropped prematurely by its container’s rotated sides. The standalone images on the website share that similar cropping style.
-            </p>
-            <a class="thumbnail">
-                <img class="img_body" src="../img/screenshots/ss_ps_uiLogo.png">
-            </a>
-            <br>
-            <br>
-
-            <p>
-                    Layout responsiveness was a primary requirement for this project so I built the site around principles of simplicity and modularity to meet this requirement. Elements, such as buttons and images, are not visually linked which makes repositioning for different screen sizes easy and clear. Visual elements around the site often share the same fundamental asset allowing for easy reuse and rapid prototyping.
-            </p>
-            <a class="thumbnail">
-            <img class="img_body" src="../img/screenshots/ss_ps_uiMobile.png">
-            </a>
-            <br>
-            <br>
-
-            <br>
-            <br>
+        <div class="projectBody">
             <div>
-                <div class="gallery cf">
-                  <div class="thumbnail">
-                    <img src="../img/screenshots/ss_site_sketch.jpg" />
-                  </div>
-                  <div class="thumbnail">
-                    <img src="../img/screenshots/ss_ps_uiV3.png" />
-                  </div>
-                  <div class="thumbnail">
-                    <img src="../img/img_projectPersonalSiteSkeleton.png" />
-                  </div>
-                  <div class="thumbnail">
-                        <img src="../img/screenshots/ss_site_v1Project.png" />
-                      </div>
-                  <div class="thumbnail">
-                    <img src="../img/screenshots/ss_site_uiOverview.png" />
-                  </div>
+                <p>   A snapshot of what I’ve been working on lately; That’s the primary purpose I wanted this website to serve. In addition to that, the site serves as a test lab for my ideas unrestricted by client requirements. A place for my professional and passion projects to coexist.
+                </p>
+                <p>
+                        This current version of the site was built over the course of 2 months when the spare time was available. Prototyping how I wanted each page layout to look for each screen size took the majority of the time. Prototyping was done using Sketch, Craft, and Axure.
+                </p>
+                <a class="thumbnail">
+                    <img class="img_body" src="../img/img_projectPersonalSiteSkeleton.png">
+                </a>
+                <br>
+                <br>
 
+                <p>
+                        I wanted the design to follow the aesthetic set fourth by my prism logo. Starting with the overall shape of the logo, the angularness and forty-five degree angled sides of the shape led me to stagger the alignments of the elements on the page. This creates diagonal sight lines that smoothly line up from one visual element to the next. Next, I wanted the forefront of the logo (everything contained in the  rotated outlined square) to convey motion. I wanted the square in the forefront to seem as though it was elevating above its background. This manifest its self in the design language of the site with the transitional scaling of buttons when they are in focus. The letters “tB” are actually contained within the outlined square, cropped prematurely by its container’s rotated sides. The standalone images on the website share that similar cropping style.
+                </p>
+                <a class="thumbnail">
+                    <img class="img_body" src="../img/screenshots/ss_ps_uiLogo.png">
+                </a>
+                <br>
+                <br>
+
+                <p>
+                        Layout responsiveness was a primary requirement for this project so I built the site around principles of simplicity and modularity to meet this requirement. Elements, such as buttons and images, are not visually linked which makes repositioning for different screen sizes easy and clear. Visual elements around the site often share the same fundamental asset allowing for easy reuse and rapid prototyping.
+                </p>
+                <a class="thumbnail">
+                    <img class="img_body" src="../img/screenshots/ss_ps_uiMobile.png">
+                </a>
+                <br>
+                <br>
+                <br>
+                <br>
+                <div>
+                    <div class="gallery cf">
+                        <div class="thumbnail">
+                            <img src="../img/screenshots/ss_site_sketch.jpg" />
+                        </div>
+                        <div class="thumbnail">
+                            <img src="../img/screenshots/ss_ps_uiV3.png" />
+                        </div>
+                        <div class="thumbnail">
+                            <img src="../img/img_projectPersonalSiteSkeleton.png" />
+                        </div>
+                        <div class="thumbnail">
+                            <img src="../img/screenshots/ss_site_v1Project.png" />
+                        </div>
+                        <div class="thumbnail">
+                            <img src="../img/screenshots/ss_site_uiOverview.png" />
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+
+        <!-- Image Viewer -->
+        <div class="thumb-viewer">
+            <a class="prev"></a>
+            <a class="next"></a>
+            <a class="close">x</a>
+            <div class="viewer-body close"></div>
+        </div>
     </div>
 
-    <!-- Image Viewer -->
-    <div class="thumb-viewer">
-        <a class="prev"></a>
-        <a class="next"></a>
-        <a class="close">x</a>
-        <div class="viewer-body close"></div>
-     </div>
 
-    <!-- Sidebar: Projects  -->
-    <nav id="sidebar">
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
     
-
-            <div class="sidebar-header">
-                <div class="btn_home">  <img id="btn_sidebarHome" src="../img/img_logoDark.png">
-                </div>
-                <div style="position: absolute; right: 40px; top: 145px;">
-                    <h1 class= "title" id="title_projects" >Recent Projects</h1>
-                    <br>
-                    <img class="btn_continue" src="../img/btn_more.png" style="position: absolute; right: -60px; width: 270px; display:none;">
-                </div>
-            </div>
-
-            <img class="btn_continue" src="../img/btn_close.png" id="dismiss">
-
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-
-            <!-- Recent Projects -->
-            <div class="sidebar_recentProjects">
-
-
-                <!-- Project 1 -->
-                <div class="sidebar_project">
-                    <table>
-                        <tr>
-                            <td><img src="../img/img_projectPersonalSite.png"></td>
-                            <td>
-                                <table>
-                                    <tr>
-                                        <td>
-                                            <div class="projectHeader">
-                                                <img src="../img/img_devHeader.png">
-                                                <h3>Personal Site 4.0</h3>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <div class="project_content">
-                                    <tr>
-                                        <td>
-                                            <p>
-                                                The fourth iteration of my personal website for contacting and showcasing of past projects.
-                                            </p>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="../projects/project_Site.html">
-                                                <img class="btn_continue" src="../img/btn_continueR.png">
-                                            </a>
-                                        </td>
-                                    </tr>
-                                    </div>
-                                </table>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-
-                <!-- Project 2 -->
-                <div class="sidebar_project">
-                        <table>
-                            <tr>
-                                <td>
-                                    <table>
-                                        <tr>
-                                            <td>
-                                                <div class="projectHeader">
-                                                    <img src="../img/img_graphicHeader.png">
-                                                    <h3>TopSpot Moblie App</h3>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <div class="project_content">
-                                        <tr>
-                                            <td>
-                                                <p>
-                                                    Concept screens for a mobile favorites locker.
-                                                    Currently still in development...
-                                                </p>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <a href="../projects/project_TopSpot.html">
-                                                    <img class="btn_continue" src="../img/btn_continueL.png">
-                                                </a>
-                                            </td>
-                                        </tr>
-                                        </div>
-                                    </table>
-                                </td>
-                                <td><img class="sidebar_projectImg" src="../img/img_projectTopSpot.png"></td>
-                            </tr>
-                        </table>
-                    </div>
-
-                <!-- Project 3 -->
-                <div class="sidebar_project">
-                        <table>
-                            <tr>
-                                <td><img src="../img/img_projectALS.png"></td>
-                                <td>
-                                    <table>
-                                        <tr>
-                                            <td>
-                                                <div class="projectHeader">
-                                                    <img src="../img/img_androidHeader.png">
-                                                    <h3>ALS Never Surrender</h3>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <div class="project_content">
-                                        <tr>
-                                            <td>
-                                                <p>
-                                                    Android application to help monitor ALS patients’ disease progression through a series of limb mobility and appendage dexterity assessments.
-    
-                                                </p>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <a href="../projects/project_ALS.html">
-                                                    <img class="btn_continue" src="../img/btn_continueR.png">
-                                                </a>
-                                            </td>
-                                        </tr>
-                                        </div>
-                                    </table>
-                                </td>
-                            </tr>
-                        </table>
-                </div>
-
-                <!-- Project 4 -->
-                <div class="sidebar_project">
-                    <table>
-                        <tr>
-                            <td>
-                                <table>
-                                    <tr>
-                                        <td>
-                                            <div class="projectHeader">
-                                                    <img src="../img/img_androidHeader.png" class="mCS_img_loaded flipHorizontally">
-                                                <h3>HashMaps Android App</h3>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <div class="project_content">
-                                    <tr>
-                                        <td>
-                                            <p>
-                                                Android application that allows students to post and view geolocations that are points of interest on campus such as free food or a musical performance.
-                                            </p>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <a href="../projects/project_HashMaps.html">
-                                                <img class="btn_continue" src="../img/btn_continueL.png">
-                                            </a>
-                                        </td>
-                                    </tr>
-                                    </div>
-                                </table>
-                            </td>
-                            <td><img class="sidebar_projectImg" src="../img/img_projectHashMaps.png"></td>
-                        </tr>
-                    </table>
-                </div>
-
-                <!-- Project 5 --> 
-                <div class="sidebar_project">
-                    <table>
-                        <tr>
-                            <td><img src="../img/img_projectPX.png"></td>
-                            <td>
-                                <table>
-                                    <tr>
-                                        <td>
-                                            <div class="projectHeader">
-                                                <img src="../img/img_graphicHeader.png" class="flipHorizontally">
-                                                <h3>Perfect Execution</h3>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <div class="project_content">
-                                        <tr>
-                                            <td>
-                                                <p>
-                                                    Web presence and branding for a local photography, car modifications and event hosting club.
-                                                </p>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <a href="../projects/project_PX.html">
-                                                    <img class="btn_continue" src="../img/btn_continueR.png">
-                                                </a>
-                                            </td>
-                                        </tr>
-                                    </div>  
-                                </table>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-
-                <!-- Project 6 -->
-                <div class="sidebar_project">
-                        <table>
-                            <tr>
-                                <td>
-                                    <table>
-                                        <tr>
-                                            <td>
-                                                <div class="projectHeader">
-                                                        <img src="../img/img_devHeader.png" class="mCS_img_loaded flipHorizontally">
-                                                    <h3>Submarine Subs Game</h3>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <div class="project_content">
-                                        <tr>
-                                            <td>
-                                                <p>
-                                                    A C# game which utilizes OOD patterns.
-                                                    Users are to build as many sandwiches as possible in accordance to predetermined recipes displayed in the game’s user interface.
-                                                </p>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <a href="../projects/project_SubmarineSubs.html">
-                                                    <img class="btn_continue" src="../img/btn_continueL.png">
-                                                </a>
-                                            </td>
-                                        </tr>
-                                        </div>
-                                    </table>
-                                </td>
-                                <td><img class="sidebar_projectImg" src="../img/img_projectSubmarine.png"></td>
-                            </tr>
-                        </table>
-                </div>
-
-                <br>
-                <br>
-
-            </div>
-
-            <!-- Mobile Formatting -->
-            <div class="sidebar_projectsMobile">
-
-
-                <div class="sidebar_mobileProject">
-                    <a href="../projects/project_Site.html">
-                        <div class="sidebar_mobileImg" style="background-image: url(../img/screenshots/ss_site_uiOverview.png);">
-                            <div class="sidebar_mobileImgOverlay"></div>
-                        </div>
-                        <div class="projectHeader">
-                            <img src="../img/img_devHeader.png">
-                            <h3>Personal Site 4.0</h3>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="sidebar_mobileProject">
-                    <a href="../projects/project_TopSpot.html">
-                        <div class="sidebar_mobileImg" style="background-image: url(../img/screenshots/ss_ts_Promo.png);">
-                            <div class="sidebar_mobileImgOverlay"></div>
-                        </div>
-                        <div class="projectHeader">
-                            <img src="../img/img_graphicHeader.png">
-                            <h3>TopSpot Mobile App</h3>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="sidebar_mobileProject">
-                    <a href="../projects/project_HashMaps.html">
-                        <div class="sidebar_mobileImg" style="background-image: url(../img/screenshots/ss_hm_uiOverview.png);">
-                            <div class="sidebar_mobileImgOverlay"></div>
-                        </div>
-                        <div class="projectHeader">
-                            <img src="../img/img_androidHeader.png">
-                            <h3 style="left:35px;">HashMaps Android App</h3>
-                        </div>
-                    </a>
-                </div>
-                
-                <div class="sidebar_mobileProject">
-                    <a href="../projects/project_PX.html">
-                        <div class="sidebar_mobileImg" style="background-image: url(../img/screenshots/ss_px_graphic.png);">
-                            <div class="sidebar_mobileImgOverlay"></div>
-                        </div>
-                        <div class="projectHeader">
-                            <img src="../img/img_graphicHeader.png">
-                            <h3>Perfect Execution</h3>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="sidebar_mobileProject">
-                    <a href="../projects/project_ALS.html">
-                        <div class="sidebar_mobileImg" style="background-image: url(../img/screenshots/ss_als_uiOverview.png);">
-                            <div class="sidebar_mobileImgOverlay"></div>
-                        </div>
-                        <div class="projectHeader">
-                            <img src="../img/img_devHeader.png">
-                            <h3>ALS Never Surrender</h3>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-        </nav>
-
-
-    <div class="overlay"></div>
-
-
-
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <!-- Popper.JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
-    <!-- Bootstrap JS -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
-    <!-- jQuery Custom Scroller CDN -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
-    <!-- jQuery CDN - Slim version (=without AJAX) -->
     <script type="text/javascript" src="../js/scriptScampi.js"></script>
     <script type="text/javascript" src="../js/imageViewer.js"></script>
 

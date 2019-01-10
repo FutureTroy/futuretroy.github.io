@@ -83,7 +83,7 @@ a:focus {
 
 }
 
-.overlay {
+/* .overlay {
     display: none;
     position: fixed;
     width: 100vw;
@@ -96,7 +96,7 @@ a:focus {
 .overlay.active {
     display: block;
     opacity: 1;
-}
+} */
 
 #sidebar .sidebar-header {
     padding: 70px;
