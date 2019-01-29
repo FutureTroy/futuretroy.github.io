@@ -108,7 +108,55 @@ div.projectHeroContent h6{
     position: relative;
 }
 
+/* ---------------------------------------------------
+    OVERVIEW STYLE
+----------------------------------------------------- */
+.projectOverview{
+    background: #424242; 
+    height: 270px; 
+    max-width: 400px; 
+    margin: 0px auto 50px auto;
+}
 
+.overviewTitle{
+    background: #9B9B9B;
+}
+.overviewTitle h1{
+    color:white; 
+    padding: 10px 15px;
+}
+.overviewContent{
+    color:white; 
+    padding-left: 30px;
+}
+.overviewContent h2{
+    margin-top: 10px;
+}
+.overviewStats{
+    margin-left:30px; margin-top: -10px;
+}
+.overviewStats h5{
+    display:inline; padding: 10px;
+}
+.overviewTech{
+    margin-top: -5px; margin-bottom: 15px; margin-left: 30px;
+}
+.overviewBadges{
+    display:inline-block; 
+    text-align: center; 
+    margin-right: 10px;
+}
+.overviewBadges img{
+    width: 30px;
+}
+.overviewBadges h5{
+    margin-top: 0px;
+}
+.btnViewOnGit{
+    width:300px; 
+    float:right; 
+    margin-top:-2px;
+}
 /* ---------------------------------------------------
     GALLERY STYLE
 ----------------------------------------------------- */
