@@ -111,9 +111,30 @@ body{
 	margin-top:65px;
 }
 
+.workHeader{
+	margin: 90px auto 20px auto;
+	display: block;
+	width: 600px;
+}
+
+.graphicsGroup{
+	margin: 0px auto;
+	width: 610px;
+}
+
+.graphicsGroup img{
+	width: 150px;
+}
+
+.graphicsGroup a{
+	position: relative;
+	float: right;
+	margin-top: 10px;
+}
+
 .project{
 	width: 600px; 
-	margin: 50px auto;
+	margin: 0px auto 50px auto;
 }
 
 .projectHero{
@@ -249,6 +270,16 @@ body{
 		position: relative;
 		top: 250px;
 	}
+	.workHeader{
+		width: 300px;
+	}
+	.graphicsGroup{
+		width: 310px;
+	}
+	.graphicsGroup img:nth-child(3), .graphicsGroup img:nth-child(4) {
+		display: none;
+	}
+	
 	.subtitle{
 		font-size: 30px;
 	}
@@ -357,7 +388,7 @@ body{
 	.btn_home{
 		position: absolute;
 		right: 40px; 
-		top: 0px;
+		top: 40px;
 		width:75px;
 	}
 	
