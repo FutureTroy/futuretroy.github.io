@@ -336,7 +336,7 @@ div.projectHeroContent h6{
     /*  leftSlice   */
     .leftSlice{
         height: 225px !important;
-        display: block !important;
+        /* display: block !important; */
     }
     .rightSlice{
         height: 0px !important;
